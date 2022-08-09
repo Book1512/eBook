@@ -1,0 +1,13 @@
+
+:root{
+  --green:#6ba900;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing:
+    border-box;
+  text-transform: capitalize;
+  transition: all .2s linear;
+  transition: width none;
+}

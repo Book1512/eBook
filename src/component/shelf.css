@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&family=Poppins:wght@100;300;400;500;600&family=Sail&display=swap');
+
+
+
+
+.home .row {
+    text-transform: capitalize;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 20px;
+    transition: all .2s linear;
+}
+.home .row .content{
+    font-family: 'Lobster Two', cursive;
+    margin: 0 auto ;margin-top: 9rem;
+    
+}
+
+.home .row .content span{
+    font-family: 'Lobster Two', cursive;
+    font-size: 5rem;
+    border-bottom: 2px solid #000;
+}
+/* .home .row .content span:hover{
+    animation: magan 3s ease-in-out;
+
+}
+@keyframes{
+    0%   {}
+  
+
+} */
+.home .row .books-slider{
+    width: 80%;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+
+.home .row .books-slider a img {
+    height: 20rem;
+    
+}
+
+.home .row .books-slider a:hover img {
+    transform: scale(.9);
+}
+
+.home .row .books-slider .stand {
+    width: 100%;
+    margin-top: -2rem;
+}
+
+/* ---------------------------- slick custom css ---------------------------- */
+.slick-prev:before, .slick-next:before
+{
+    color: #6ba900;
+    opacity: 1;
+}
+
+@media(max-width:991px){
+    .home .row .books-slider{
+        width: 100%;
+    }
+    
+    
+    @media(max-width:468px){
+        .home .row .content span{
+            font-size: 3rem;
+        }
+    }
+}
