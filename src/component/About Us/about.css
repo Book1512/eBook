@@ -1,0 +1,81 @@
+
+.about_us {
+    width: 100%;
+    height: 95vh;
+    padding-top: 100px;
+    font-family: var(--font-family);
+    overflow: hidden;
+}
+
+.about_us > .row {
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 20px;
+    transition: all .3s linear;
+}
+
+.about_us .row .heading {
+    text-align: center;
+    font-weight: bolder;
+}
+.about_us .row .heading >span{
+    color: green;
+}
+.about_us .row  hr {
+    width: 40%;
+}
+
+
+/* -------------------------- custom Card css Start ------------------------- */
+
+
+
+
+.about_us .row  .dev_card_section {
+    margin-top:40px ;
+}
+.about_us .row  .dev_card_section .card{
+    
+    border: none;
+    width: 20rem;
+    height: 25rem;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.about_us .row  .dev_card_section .card .card-img{
+    object-fit: cover;
+    border-radius: 20px;
+    height: 100%;
+    transition: 1s;
+    
+}
+.about_us .row  .dev_card_section .card:hover .card-img
+{
+    transform: scale(1.1);
+}
+.about_us .row  .dev_card_section .card .card-body {
+    border-radius: 20px;
+    height: 4rem;
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    background-color: rgba(17, 17, 17, 0.507);
+    text-align: center;
+    transition: 1s;
+}
+.about_us .row  .dev_card_section .card:hover .card-body
+{
+    height: 16rem;
+}
+.about_us .row  .dev_card_section  .card .card-body .card-title
+{
+    font-size: 2rem;
+}
+
+/* -------------------------- custom Card css End ------------------------- */
+.btn_insta {
+    font-size:30px;
+}

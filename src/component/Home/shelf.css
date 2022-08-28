@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&family=Poppins:wght@100;300;400;500;600&family=Sail&display=swap');
+
+
+
+
+.home .row {
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 20px;
+    transition: all .2s linear;
+    padding: 0 50px;
+
+}
+
+.home .row .content {
+    font-family: 'Lobster Two', cursive;
+    margin: 0 auto;
+    margin-top: 7rem;
+
+}
+
+.home .row .content span {
+    font-family: 'Lobster Two', cursive;
+    font-size: 5rem;
+    border-bottom: 2px solid #000;
+}
+
+.home .row .books-slider {
+    /* width: 80%; */
+    text-align: center;
+    margin-top: 2rem;
+}
+
+/* ----------------------------- stand book css ----------------------------- */
+
+.home .row .books-slider p img {
+    height: 20rem;
+
+}
+
+.magan p img {
+    height: 20rem;
+
+}
+
+/* .home .row .books-slider p:hover img {
+    transform: scale(.9);
+} */
+
+/* -------------------------------- stand css ------------------------------- */
+
+.home .row .books-slider .stand {
+    width: 100%;
+    margin-top: -3.7rem;
+}
+
+
+/* ---------------------------- slick custom css ---------------------------- */
+.slick-prev:before,
+.slick-next:before {
+    color: #6ba900;
+    opacity: 1;
+}
+
+/* ------------------------------ Model Box - Book View Css ----------------------------- */
+#mimg p {
+    position: relative;
+}
+
+#mimg p .rb {
+    width: 100%;
+    height: 66vh;
+    position: absolute;
+    opacity: 0;
+    transition: all 0.5s ease-in;
+}
+
+#mimg p:hover .rb {
+    background-color: rgba(0, 0, 0, 0.247);
+    opacity: 1;
+    
+}
+#mimg p .rb button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5rem;
+    border: 2px solid rgb(255, 255, 255);
+    /* transition: 0.7s ease-in-out; */
+}
+#mimg p .rb a{
+
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+
+
+@media(max-width:991px) {
+    .home .row .books-slider {
+        width: 100%;
+    }
+
+
+    @media(max-width:468px) {
+        .home .row .content span {
+            font-size: 3rem;
+        }
+    }
+}

@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+
+.book {
+    width: 100%;
+    height: 100vh;
+    padding: 100px 0px;
+    font-family: var(--font-family);
+    overflow: hidden;
+
+}
+
+.book .row {
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 20px;
+    transition: all .3s linear;
+}
+.book .heading {
+    text-align: center;
+    font-weight: bolder;
+}
+.book .heading span
+{
+    color: green;
+}
+
+.book .row  hr {
+    width: 40%;
+}
+/* ------------------------- custom Tabs Button Css ------------------------- */
+.book_content .row .nav
+{
+    margin-bottom: 20px;
+}
+.book_content .row .nav .nav-link:hover
+{
+    border: green;
+    color: green;
+}
+.book_content .row .nav .nav-link button
+{
+    padding: 10px 20px;
+    font-size: 1.2rem;
+}
+.book_content .row .nav .nav-link.active button{
+    background-color: green;
+    color: white;
+    box-shadow:5px 5px 5px rgb(145, 255, 145);
+}
+.book_content .row .tab-content .tab-pane{
+    transition: 1s ease-in-out;
+}
+
+#stand
+{
+    width: 100%;
+    margin-top: -2.4rem;
+    /* padding: 0 20px; */
+    /* height: 20vh; */
+}
+
+
+

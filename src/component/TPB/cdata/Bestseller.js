@@ -1,0 +1,54 @@
+const Bestseller = [
+    {
+        "id":1,
+        "image":"https://images-na.ssl-images-amazon.com/images/I/91bYsX41DVL.jpg",
+        "link":"https://www.amazon.in/Atomic-Habits-James-Clear/dp/1847941834/ref=zg_bs_books_sccl_1/257-1269461-6612913?pd_rd_i=1847941834&psc=1"
+    },
+    {
+        "id":2,
+        "image":"https://images-na.ssl-images-amazon.com/images/I/81l3rZK4lnL.jpg",
+        "link":"https://www.amazon.in/Ikigai-H%C3%A9ctor-Garc%C3%ADa/dp/178633089X/ref=zg_bs_books_sccl_2/257-1269461-6612913?pd_rd_i=178633089X&psc=1"
+    },
+    {
+        "id":3,
+        "image":"https://images-na.ssl-images-amazon.com/images/I/91+T1TAxkKL.jpg",
+        "link":"https://www.amazon.in/War-Lanka-Ram-Chandra-Book/dp/9356291527/ref=zg_bs_books_sccl_3/257-1269461-6612913?pd_rd_i=9356291527&psc=1"
+    },
+    {
+        "id":4,
+        "image":"https://images-na.ssl-images-amazon.com/images/I/71g2ednj0JL.jpg",
+        "link":"https://www.amazon.in/Psychology-Money-Morgan-Housel/dp/9390166268/ref=zg_bs_books_sccl_4/257-1269461-6612913?pd_rd_i=9390166268&psc=1"
+    },
+    {
+        "id":5,
+        "image":"https://images-na.ssl-images-amazon.com/images/I/71sBtM3Yi5L.jpg",
+        "link":"https://www.amazon.in/Power-Your-Subconscious-Mind/dp/8194790832/ref=zg_bs_books_sccl_5/257-1269461-6612913?pd_rd_i=8194790832&psc=1"
+    },
+    {
+        "id":6,
+        "image":"https://images-na.ssl-images-amazon.com/images/I/818e+fq7+BL.jpg",
+        "link":"https://www.amazon.in/Word-Power-Made-Norman-Lewis/dp/0143424688/ref=zg_bs_books_sccl_6/257-1269461-6612913?pd_rd_i=0143424688&psc=1"
+    },
+    {
+        "id":7,
+        "image":"https://images-na.ssl-images-amazon.com/images/I/81ZLwAwD-ML.jpg",
+        "link":"https://www.amazon.in/Rich-Dad-Poor-Middle-Anniversary/dp/1612681131/ref=zg_bs_books_sccl_7/257-1269461-6612913?pd_rd_i=1612681131&psc=1"
+    },
+    {
+        "id":8,
+        "image":"https://images-na.ssl-images-amazon.com/images/I/81N7FmJhbhL.jpg",
+        "link":"https://www.amazon.in/Lifes-Amazing-Secrets-Balance-Purpose/dp/0143442295/ref=zg_bs_books_sccl_9/257-1269461-6612913?pd_rd_i=0143442295&psc=1"
+    },
+    {
+        "id":9,
+        "image":"https://images-na.ssl-images-amazon.com/images/I/71ZKMWgafjL.jpg",
+        "link":"https://www.amazon.in/India-Bharat-Pakistan-Constitutional-Civilisation/dp/9354353010/ref=zg_bs_books_sccl_10/257-1269461-6612913?pd_rd_i=9354353010&psc=1"
+    },
+    {
+        "id":10,
+        "image":"https://images-na.ssl-images-amazon.com/images/I/61fp0RQR+9L.jpg",
+        "link":"https://www.amazon.in/Almanack-Naval-Ravikant-Wealth-Happiness/dp/9354893899/ref=zg_bs_books_sccl_22/257-1269461-6612913?pd_rd_i=9354893899&psc=1"
+    }
+   
+]
+export default Bestseller;

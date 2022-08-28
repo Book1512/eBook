@@ -1,21 +1,29 @@
 import React from 'react';
 import Header from './component/header.js';
+import Shelf from './component/Home/shelf.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
-// import Sliders from './component/slider.js';
-// import BasicExample from './component/form.js';
-// import Clock from './component/clock.js';
-import Shelf from './component/shelf.js';
+import Category from './component/Category/category.js';
+import Aurthor from './component/Aurthor/aurthor.js';
+import TPB from './component/TPB/tpb.js';
+import About from './component/About Us/about.js';
+import Footer from './component/footer.js';
+
 
 
 function App() {
   return (
-    <React.Fragment>
-    <Header />
-    <Shelf/>
-    {/* <Sliders /> */}
-    
-    {/* <BasicExample /> */}
-    </React.Fragment>
+    <>
+      <Header />
+      <Shelf />
+      <Category />
+      <Aurthor />
+      <TPB />
+      <About />
+      <Footer />
+    </>
+
+
+
   );
 }
 

@@ -1,0 +1,15 @@
+
+
+
+.fbook .swipe img{
+    box-shadow: -8px 5px 10px rgba(0, 0, 0, 0.397);
+    height: 18rem;
+}
+.fbook .stand
+{
+    width: 100%;
+    margin-top: -2.4rem;
+    display: none;
+    /* padding: 0 20px; */
+    /* height: 20vh; */
+}

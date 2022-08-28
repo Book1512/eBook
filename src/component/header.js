@@ -1,19 +1,20 @@
 import React from 'react';
 
+import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
+import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
+// import css
+import '../App.css';
 
 function Header() {
   return (
-    <Navbar collapseOnSelect expand="lg" bg="light" variant="light" fixed='top'>
+    <Navbar collapseOnSelect expand="lg" bg="219150" variant="light" fixed='top' className='navbar'>
       <Container>
-
-
-        {/* <Navbar.Brand>
-          <img src='logo.png' alt='Logo is here' style={{width:200}}/>
-        </Navbar.Brand> */}
+        <Navbar.Brand>
+          <h2>Book Archive</h2>
+        </Navbar.Brand>
 
 
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -21,29 +22,25 @@ function Header() {
 
          {/* Menubar start here */}
          
-          <Nav className="me-auto" style={{margin:'auto'}}>
-            <Nav.Link href="#Home">Home</Nav.Link>
-            
-            <NavDropdown title="Catagories" id="collasible-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Envaronmant</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Lifestyle
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Personality</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
-              </NavDropdown.Item>
-            </NavDropdown>
-
-            <Nav.Link href="#about">About</Nav.Link>
-            <Nav.Link href="#services">Services</Nav.Link>
-            <Nav.Link href="#contact">Contact</Nav.Link>
+          <Nav className="me-auto header" style={{margin:'auto'}}>
+            <Nav.Link href="#home"  className='menu'>Home</Nav.Link>
+            <Nav.Link href="#category"  className='menu'>Category</Nav.Link>
+            <Nav.Link href="#author"  className='menu'>Author</Nav.Link>
+            <Nav.Link href="#book_corner"  className='menu'>Book Corner</Nav.Link>
+            <Nav.Link href="#our_team"  className='menu'>Our Team</Nav.Link>
 
 
             
           </Nav>
-          
+          <Form className="d-flex">
+            <Form.Control
+              type="search"
+              placeholder="Search"
+              className="me-2"
+              aria-label="Search"
+            />
+            <Button variant="primary" className=''>Search</Button>
+          </Form>
         </Navbar.Collapse>
       </Container>
     </Navbar>

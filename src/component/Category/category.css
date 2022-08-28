@@ -1,0 +1,133 @@
+/* Create four equal columns that sits next to each other */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+.category {
+    width: 100%;
+    height: 76vh;
+    padding: 100px 0;
+    overflow: hidden;
+    font-family: var(--font-family);
+}
+
+.category .row {
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 20px;
+    transition: all .3s linear;
+    padding: 0 50px;
+}
+
+.category .heading {
+    text-align: center;
+    font-weight: bolder;
+}
+
+.category .row  hr {
+    width: 40%;
+}
+
+/* ------------------ category-image related section start ------------------ */
+
+.category .row .slided .box {
+    width: 350px;
+    height: auto;
+    position: relative;
+}
+
+.category .row .slided .box img {
+    width: 80%;
+    display: block;
+    text-align: center;
+    object-fit: cover;
+    object-position: center;
+    height: 15rem;
+    margin: 3rem auto;
+
+}
+
+
+
+
+.category .row .slided .box .con-box {
+    width: 80%;
+    height: 71%;
+    background-color: rgba(0, 0, 0, 0.579);
+    top: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transition: 1s linear;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    box-shadow: 5px 10px 15px #888888;
+    opacity: 0;
+}
+
+.category .row .slided .box .con-box .text {
+    border: 2px solid rgb(255, 255, 255);
+    margin: 0;
+    padding: 6px;
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    opacity: 0;
+
+}
+
+.category .row .slided .box:hover .con-box,
+.category .row .slided .box:hover .con-box .text {
+    opacity: 1;
+}
+
+.category .row .slided .box .con-box .text p {
+
+    text-decoration: none;
+}
+
+.category .row .slided .box .con-box .text h3 {
+    color: white;
+    padding: 6px;
+    height: 100%;
+    margin-bottom: 0;
+}
+
+.category .row .slided .box .con-box .text:hover h3 {
+    color: rgb(125, 125, 125);
+    background-color: white;
+    height: 100%;
+    animation: text 0.3s ease-in;
+    
+}
+
+@keyframes text {
+    0% {
+        width: 10%;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
+.category .row .slided .box .con-box .text a h3 {
+    margin: 0;
+}
+
+/* #mbox .swiper a img */
+#mbody{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    /* background-color: red; */
+
+}
+#mbox{
+    margin: 10px;
+}

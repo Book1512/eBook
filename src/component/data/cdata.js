@@ -1,0 +1,55 @@
+const Cdata =
+[
+    {
+        "id":1,
+        "cname":"Advanture",
+        "cimg":"https://images.unsplash.com/photo-1512036666432-2181c1f26420?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80"
+        
+    },
+    {
+        "id":2,
+        "cname":"Sci-Fi",
+        "cimg":"https://images.unsplash.com/photo-1560390816-3400050aab0b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
+    },
+    {
+        "id":3,
+        "cname":"Horror",
+        "cimg":"https://images.unsplash.com/photo-1635488129873-ddacde2c1927?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1665&q=80"
+    },
+    {
+        "id":4,
+        "cname":"Mystrey",
+        "cimg":"https://images.unsplash.com/photo-1628178636692-7a4a8851a7bb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+    },
+    {
+        "id":5,
+        "cname":"Cooking",
+        "cimg":"https://images.unsplash.com/photo-1581349485608-9469926a8e5e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1664&q=80"
+    },
+    {
+        "id":6,
+        "cname":"Health",
+        "cimg":"https://images.unsplash.com/photo-1506126613408-eca07ce68773?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=799&q=80"
+    },
+    {
+        "id":7,
+        "cname":"Comic",
+        "cimg":"https://images.unsplash.com/photo-1601645191163-3fc0d5d64e35?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80"
+    },
+    {
+        "id":8,
+        "cname":"Tech",
+        "cimg":"https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+    },
+    {
+        "id":9,
+        "cname":"Business",
+        "cimg":"https://images.unsplash.com/photo-1611095790444-1dfa35e37b52?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80"
+    },
+    {
+        "id":10,
+        "cname":"Biography",
+        "cimg":"https://images.unsplash.com/photo-1595072697075-bebc646eac35?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=797&q=80"
+    },
+]
+export default Cdata;

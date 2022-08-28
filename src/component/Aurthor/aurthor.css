@@ -1,0 +1,81 @@
+.author {
+    width: 100%;
+    height: 100vh;
+    padding: 100px 0;
+    /* overflow: hidden; */
+    font-family: var(--font-family);
+}
+
+.author .row {
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 20px;
+    transition: all .3s linear;
+}
+
+.author .heading {
+    text-align: center;
+    font-weight: bolder;
+}
+
+.author .row  hr {
+    width: 40%;
+}
+/* ------------------------- slicker card custom css ------------------------ */
+.author .slick-prev:before, 
+.author .slick-next:before {
+    /* ------------------------ for make buttom disappear ----------------------- */
+    color: #6ba900;
+    opacity: 0;
+}
+
+/* ----------------------------- custom card css ---------------------------- */
+
+.author .row  .card_section {
+    margin-top:40px ;
+}
+.author .row  .card_section .card{
+    
+    border: none;
+    width: 20rem;
+    height: 25rem;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.author .row  .card_section .card .card-img{
+    object-fit: cover;
+    border-radius: 20px;
+    height: 100%;
+    transition: 1s;
+    
+}
+.author .row  .card_section .card:hover .card-img
+{
+    transform: scale(1.1);
+}
+
+
+.author .row  .card_section .card .card-body{
+    border-radius: 20px;
+    height: 4rem;
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    background-color: rgba(17, 17, 17, 0.507);
+    text-align: center;
+    transition: 1s;
+    width: 100%;
+}
+/* .author .row  .card_section .card:hover .card-body
+{
+    height: 11rem;
+}  */
+.author .row  .card_section  .card .card-body .card-title
+{
+    font-size: 1.5rem;
+}
+
+
