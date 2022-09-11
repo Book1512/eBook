@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "2ac175114f8d75115124",
-    "url": "/eBook/static/css/main.824581e1.chunk.css"
+    "revision": "6689b17901d4d000e96a",
+    "url": "/eBook/static/css/main.4838f92b.chunk.css"
   },
   {
-    "revision": "2ac175114f8d75115124",
-    "url": "/eBook/static/js/main.2ac17511.chunk.js"
+    "revision": "6689b17901d4d000e96a",
+    "url": "/eBook/static/js/main.6689b179.chunk.js"
   },
   {
     "revision": "4e3eec0efd1bea118b1d",
@@ -24,23 +24,23 @@ self.__precacheManifest = [
     "url": "/eBook/static/js/runtime~main.6ef2f6f9.js"
   },
   {
-    "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",
-    "url": "/eBook/static/media/slick.b7c9e1e4.woff"
+    "revision": "ced611daf7709cc778da928fec876475",
+    "url": "/eBook/static/media/slick.ced611da.eot"
   },
   {
     "revision": "d41f55a78e6f49a5512878df1737e58a",
     "url": "/eBook/static/media/slick.d41f55a7.ttf"
   },
   {
-    "revision": "ced611daf7709cc778da928fec876475",
-    "url": "/eBook/static/media/slick.ced611da.eot"
+    "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",
+    "url": "/eBook/static/media/slick.b7c9e1e4.woff"
   },
   {
     "revision": "f97e3bbf73254b0112091d0192f17aec",
     "url": "/eBook/static/media/slick.f97e3bbf.svg"
   },
   {
-    "revision": "72d522d7fc302c1b96044fbcc279489a",
+    "revision": "c0fe0724d63d3f307e2d1b98b088fda3",
     "url": "/eBook/index.html"
   }
 ];

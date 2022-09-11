@@ -1,7 +1,7 @@
 {
-  "main.css": "/eBook/static/css/main.824581e1.chunk.css",
-  "main.js": "/eBook/static/js/main.2ac17511.chunk.js",
-  "main.js.map": "/eBook/static/js/main.2ac17511.chunk.js.map",
+  "main.css": "/eBook/static/css/main.4838f92b.chunk.css",
+  "main.js": "/eBook/static/js/main.6689b179.chunk.js",
+  "main.js.map": "/eBook/static/js/main.6689b179.chunk.js.map",
   "static/js/1.4e3eec0e.chunk.js": "/eBook/static/js/1.4e3eec0e.chunk.js",
   "static/js/1.4e3eec0e.chunk.js.map": "/eBook/static/js/1.4e3eec0e.chunk.js.map",
   "static/css/2.a1ba243d.chunk.css": "/eBook/static/css/2.a1ba243d.chunk.css",
@@ -10,9 +10,9 @@
   "runtime~main.js": "/eBook/static/js/runtime~main.6ef2f6f9.js",
   "runtime~main.js.map": "/eBook/static/js/runtime~main.6ef2f6f9.js.map",
   "static/media/slick-theme.css": "/eBook/static/media/slick.f97e3bbf.svg",
+  "static/css/main.4838f92b.chunk.css.map": "/eBook/static/css/main.4838f92b.chunk.css.map",
   "static/css/2.a1ba243d.chunk.css.map": "/eBook/static/css/2.a1ba243d.chunk.css.map",
-  "static/css/main.824581e1.chunk.css.map": "/eBook/static/css/main.824581e1.chunk.css.map",
   "index.html": "/eBook/index.html",
-  "precache-manifest.a12a4296d3b53ce5bf4ae8753733c9c5.js": "/eBook/precache-manifest.a12a4296d3b53ce5bf4ae8753733c9c5.js",
+  "precache-manifest.0398d114c53b81a286d41862a678cbf3.js": "/eBook/precache-manifest.0398d114c53b81a286d41862a678cbf3.js",
   "service-worker.js": "/eBook/service-worker.js"
 }
