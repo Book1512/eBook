@@ -38,7 +38,7 @@ const Author =
             /* -------------------------- Type Author name here ------------------------- */
             "name":"C. S. Lewis",
             /* -------------------------- change author picture ------------------------- */
-            "image":"https://cdn.britannica.com/24/82724-050-A1F9D0B9/CS-Lewis.jpg",
+            "image":"https://www.nocloo.com/wp-content/uploads/2020/06/CS-Lewis-1.jpg",
             "sinfo":"C.S. Lewis, in full Clive Staples Lewis, (born November 29, 1898, Belfast, Ireland [now in Northern Ireland]—died November 22, 1963, Oxford, Oxfordshire, England), Irish-born scholar, novelist, and author of about 40 books, many of them on Christian apologetics, including The Screwtape Letters and Mere Christianity. His works of greatest lasting fame may be The Chronicles of Narnia, a series of seven children’s books that have become classics of fantasy literature. Reading and education were valued highly in the Lewis household. Lewis’s father, Albert Lewis, was a solicitor, and his mother, Florence Hamilton Lewis, graduated from the Royal University of Ireland (now Queen’s University Belfast) at a time when it was not common for women to earn degrees. Lewis and his older brother, Warren (“Warnie”), like their parents, were avid readers. Lewis was something of a prodigy: he was reading by age three and by five had begun writing stories about a fantasy land populated by “dressed animals,” influenced by the stories of Beatrix Potter, which were being published as Lewis grew up. Selections of those early stories were collected in Boxen: The Imaginary World of the Young C.S. Lewis (1985)."
         },
         {
@@ -46,7 +46,7 @@ const Author =
             /* -------------------------- Type Author name here ------------------------- */
             "name":"Dan Brown",
             /* -------------------------- change author picture ------------------------- */
-            "image":"https://cdn.britannica.com/10/227610-050-90F1E70F/Dan-Brown-author-2016.jpg",
+            "image":"https://danbrown.com/wp-content/themes/danbrown/images/db/slideshow/author/db.courter.02.jpg",
             "sinfo":"Dan Brown, (born June 22, 1964, Exeter, New Hampshire, U.S.), American author who wrote well-researched novels that centred on secret organizations and had intricate plots. He was best known for the Robert Langdon series, which notably included The Da Vinci Code (2003). Brown attended Phillips Exeter Academy, a prep school where his father was a math teacher, and in 1986 he graduated from Amherst (Massachusetts) College. He then moved to California to pursue a career as a songwriter. Although he had little success in the music industry, in 1990 he wrote his first book, 187 Men to Avoid, a dating survival guide for women; it was published in 1995."
         },
         {
@@ -54,7 +54,7 @@ const Author =
             /* -------------------------- Type Author name here ------------------------- */
             "name":"Danielle Steel",
             /* -------------------------- change author picture ------------------------- */
-            "image":"https://cdn.britannica.com/13/136513-050-D53938B1/Danielle-Steel.jpg",
+            "image":"https://daniellesteel.com/wp-content/themes/danielle-steel/images/gallery/g_ds19.jpg",
             "sinfo":"Danielle Steel, in full Danielle Fernande Schuelein-Steel, (born August 14, 1947, New York City, New York, U.S.), American writer best known for her numerous best-selling romance novels. Steel was an only child. After her parents divorced, she was reared by relatives and family employees in Paris and New York City. By age 15 she had graduated from the Lycée Français, and in 1963 she enrolled in the Parsons School of Design in New York. Illness prevented her from finishing her studies, but, when she recovered, she married a wealthy French banker. In 1968 she was hired as a vice president of public relations for the advertising agency Supergirls, Ltd., in New York City. When the firm closed in 1971, Steel turned to writing novels and poetry."
         },
         {

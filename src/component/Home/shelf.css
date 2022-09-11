@@ -9,7 +9,6 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    /* padding: 0 20px; */
     transition: all .2s linear;
     padding: 0 50px;
     margin-top: 6rem;
@@ -29,7 +28,6 @@
 }
 
 .home .row .books-slider {
-    /* width: 80%; */
     text-align: center;
     margin-top: 2rem;
 }
@@ -46,9 +44,7 @@
 
 }
 
-/* .home .row .books-slider p:hover img {
-    transform: scale(.9);
-} */
+
 
 /* -------------------------------- stand css ------------------------------- */
 
