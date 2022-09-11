@@ -39,7 +39,7 @@ export default function Newreleasebook() {
         ]
     }
     return (
-        <section className='fbook'>
+        <div className='fbook'>
         {/* <div className='fcontent'> */}
             <Slider {...settings}>
                 {
@@ -54,6 +54,6 @@ export default function Newreleasebook() {
             </Slider>
         {/* </div> */}
             <img src='./images/shelf2.png' alt='' className='stand' />
-        </section>
+        </div>
     )
 }

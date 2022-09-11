@@ -9,16 +9,16 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 0 20px;
+    /* padding: 0 20px; */
     transition: all .2s linear;
     padding: 0 50px;
+    margin-top: 6rem;
 
 }
 
 .home .row .content {
     font-family: 'Lobster Two', cursive;
     margin: 0 auto;
-    margin-top: 7rem;
 
 }
 

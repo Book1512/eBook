@@ -1,43 +1,136 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster+Two:wght@700&display=swap');
-:root{
-  --green:#27ae60;
-  --dark-color:#219150;
-  --black:#444;
-  --light-color:#666;
-  --border:.1rem solid rgba(0,0,0,.1);
-  --border-hover:.1rem solid var(--black);
-  --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
-  --bg-sec:#f3ffdd;
-  --font-family:'Poppins', sans-serif;
+
+:root {
+  --green: #27ae60;
+  --dark-color: #219150;
+  --black: #444;
+  --light-color: #666;
+  --border: .1rem solid rgba(0, 0, 0, .1);
+  --border-hover: .1rem solid var(--black);
+  --box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+  --bg-sec: #f3ffdd;
+  --font-family: 'Poppins', sans-serif;
 }
 
 
 
 /* -------------------------- Navbar CSS start here ------------------------- */
 
-.navbar
-{
-  background-color:var(--green);
-  font-family:var(--font-family);
+.navbar {
+  background-color: var(--green);
+  font-family: var(--font-family);
   font-weight: bolder;
   box-shadow: -1px 15px 30px rgb(77, 77, 77);
 }
-.header .menu
-{
+
+.header .menu {
   color: #fff;
   padding: 10px;
   margin: 0 10px;
 }
-.header .menu:hover
-{
+
+.header .menu:hover {
   border-bottom: 1px solid #000;
-  
+
 }
-.navbar-brand h2
-{
+
+.navbar-brand h2 {
   font-family: 'Lobster Two', cursive;
   color: #fff;
   font-size: 2.5rem;
 
 }
+
+
+/* ------------------- Media Query Start Here width:768px ------------------- */
+@media only screen and (max-width: 768px) {
+
+  section,
+  #category,
+  #author,
+  #book_corner,
+  #our_team {
+    padding: 80px 0;
+  }
+
+  #author .row .card_section .card {
+    width: 16rem;
+    height: 22rem;
+  }
+
+  #author .row .card_section .card .card-body .card-title {
+    font-size: 1.3rem;
+  }
+
+
+  /* ------------------------------- tbp sectino start ------------------------------ */
+
+  /* ------------------------------- bestseller ------------------------------- */
+  #book_corner .fbook .swipe img {
+    box-shadow: -8px 5px 10px rgba(0, 0, 0, 0.397);
+    height: 16rem;
+  }
+
+  /* ---------------------------------- stand --------------------------------- */
+  #book_corner #stand {
+    width: 100%;
+    margin-top: -1.4rem;
+
+  }
+
+  /* ------------------------------- tbp sectino end ------------------------------ */
+
+  /* -------------------------------- our Team -------------------------------- */
+
+}
+
+/* ------------------- Media Query end Here width:768px ------------------- */
+
+/* ------------------- Media Query Start Here width:468px ------------------- */
+@media only screen and (max-width: 468px) {
+  #home,
+  #category,
+  #author,
+  #book_corner,
+  #our_team {
+    padding: 40px 0;
+  }
+
+  /* ---------------------------------- home ---------------------------------- */
+  #home 
+  {
+
+  }
+  #home .row .content p
+  {
+      font-size: 4rem;
+  }
+  #author .row .card_section .card {
+    width: 20rem;
+    height: 25rem;
+  }
+
+  #author .row .card_section .card .card-body .card-title {
+    font-size: 1.5rem;
+  }
+
+
+  /* ------------------------------- tbp sectino start ------------------------------ */
+
+  /* ------------------------------- bestseller ------------------------------- */
+  #book_corner .fbook .swipe img {
+    box-shadow: -8px 5px 10px rgba(0, 0, 0, 0.397);
+    height: 13rem;
+  }
+
+  /* ---------------------------------- stand --------------------------------- */
+  #book_corner #stand {
+    width: 100%;
+    margin-top: -1rem;
+
+  }
+
+  /* ------------------------------- tbp sectino end ------------------------------ */
+}
+/* ------------------- Media Query End Here width:468px ------------------- */

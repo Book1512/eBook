@@ -25,7 +25,7 @@ export default function Bestsellerbooks() {
                 breakpoint: 768,
                 settings: {
                     slidesToShow: 2,
-                    slidesToScroll: 2,
+                    slidesToScroll: 1,
 
                 }
             },
@@ -39,7 +39,7 @@ export default function Bestsellerbooks() {
         ]
     }
     return (
-        <section className='fbook'>
+        <div className='fbook'>
         {/* <div className='fcontent'> */}
             <Slider {...settings}>
                 {
@@ -54,6 +54,6 @@ export default function Bestsellerbooks() {
             </Slider>
         {/* </div> */}
             {/* <img src='./images/shelf2.png' alt='' className='stand' /> */}
-        </section>
+        </div>
     )
 }

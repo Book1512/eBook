@@ -21,7 +21,7 @@ function About() {
       {
         breakpoint: 991,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 2,
           slidesToScroll: 1,
           infinite: true,
 
@@ -30,8 +30,8 @@ function About() {
       {
         breakpoint: 768,
         settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
+          slidesToShow: 1,
+          slidesToScroll: 1,
 
         }
       },
@@ -86,7 +86,7 @@ function About() {
                       <Card.Text className='d-flex justify-content-between px-4'>
                         <i className='btn_insta'> <a href={citem.insta} target="_blank" rel="noopener noreferrer"> <IoLogoInstagram /> </a> </i>
                         <i className='btn_insta'> <a href={citem.face} target="_blank" rel="noopener noreferrer"> <IoLogoFacebook /> </a> </i>
-                        <i className='btn_insta'> <a href={`mailto: ${citem.gmail}`} target="_blank" rel="noopener noreferrer"> <FiMail /> </a> </i>
+                        <i className='btn_insta'> <a href={`mailto${citem.gmail}`} target="_blank" rel="noopener noreferrer"> <FiMail /> </a> </i>
                       </Card.Text>
                     </Card.Body>
                   </Card>

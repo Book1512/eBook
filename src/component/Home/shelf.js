@@ -68,7 +68,7 @@ export default function Shelf() {
 
             <div className="row">
                 <div className='content' style={{ textAlign: 'center', fontSize: '5rem' }}>
-                    <p> Welcome to Book Archive</p>
+                    <p> Welcome to <br/>Book Archive</p>
                     <hr />
                 </div>
 

@@ -70,10 +70,7 @@
     width: 100%;
     cursor: pointer;
 }
-/* .author .row  .card_section .card:hover .card-body
-{
-    height: 11rem;
-}  */
+
 .author .row  .card_section  .card .card-body .card-title
 {
     font-size: 1.5rem;
