@@ -45,7 +45,7 @@ export default function Bestsellerbooks() {
                 {
                     Bestseller.map((item) =>
                         <div align="center" key={item.id}>
-                            <a href={item.link} target="_blank"  className="swipe">
+                            <a href={item.link} target="_blank"  className="swipe" rel="noopener noreferrer">
                                 <img src={item.image} alt="" />
                             </a>
                         </div>

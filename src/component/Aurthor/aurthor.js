@@ -116,7 +116,7 @@ export default function Aurthor() {
                                                 <div className='col-6'>
                                                     <img src={citem.image} alt="" style={{width:'100%'}} />
                                                 </div>
-                                                <div className='des px-3 col-6'>
+                                                <div className='des px-3 col-6 overflow-auto mt-2' style={{height:'20rem'}}>
                                                     <p>{citem.sinfo}</p>
                                                 </div>
                                             </div>

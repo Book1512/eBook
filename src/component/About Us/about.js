@@ -6,7 +6,9 @@ import Devloper from '../data/devloper';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { IoLogoInstagram,IoLogoFacebook,IoLogoLinkedin } from "react-icons/io5";
+import { IoLogoInstagram, IoLogoFacebook } from "react-icons/io5";
+import { FiMail } from "react-icons/fi";
+
 function About() {
   const settings = {
 
@@ -47,15 +49,15 @@ function About() {
 
       style={{
 
-        overflow: 'hidden'
+        overflow: 'hidden',
+          backgroundImage: `url(./images/dev.jpg)`,
+        padding: '50px 0'
 
       }}>
       <div className='row'
         style={{
 
           // backgroundImage:`url(./images/bg-3.jpg)`,
-          backgroundImage: `url(./images/dev.jpg)`,
-          padding: '50px 0'
 
         }}>
         <div className='content'>
@@ -81,11 +83,11 @@ function About() {
                       </Card.Text>
                       <hr className='w-100' />
                       {/* <Button> <IoLogoInstagram /></Button> */}
-                     <Card.Text className='d-flex justify-content-between px-4'>
-                        <i className='btn_insta'><IoLogoInstagram /></i>
-                        <i className='btn_insta'><IoLogoFacebook /></i>
-                        <i className='btn_insta'><IoLogoLinkedin /></i>
-                     </Card.Text>
+                      <Card.Text className='d-flex justify-content-between px-4'>
+                        <i className='btn_insta'> <a href={citem.insta} target="_blank" rel="noopener noreferrer"> <IoLogoInstagram /> </a> </i>
+                        <i className='btn_insta'> <a href={citem.face} target="_blank" rel="noopener noreferrer"> <IoLogoFacebook /> </a> </i>
+                        <i className='btn_insta'> <a href={`mailto: ${citem.gmail}`} target="_blank" rel="noopener noreferrer"> <FiMail /> </a> </i>
+                      </Card.Text>
                     </Card.Body>
                   </Card>
                 </div>

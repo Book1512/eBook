@@ -68,6 +68,7 @@
     text-align: center;
     transition: 1s;
     width: 100%;
+    cursor: pointer;
 }
 /* .author .row  .card_section .card:hover .card-body
 {

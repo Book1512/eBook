@@ -1,10 +1,10 @@
 
 .about_us {
     width: 100%;
-    height: 95vh;
-    padding-top: 100px;
+    /* padding-top: 100px; */
     font-family: var(--font-family);
     overflow: hidden;
+    margin-top: 100px;
 }
 
 .about_us > .row {
@@ -13,7 +13,7 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 0 20px;
+    padding: 50px 50px;
     transition: all .3s linear;
 }
 
@@ -78,4 +78,9 @@
 /* -------------------------- custom Card css End ------------------------- */
 .btn_insta {
     font-size:30px;
+}
+.btn_insta a 
+{
+    color: #fff;
+    text-decoration: none;
 }
