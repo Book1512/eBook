@@ -134,3 +134,72 @@
   /* ------------------------------- tbp sectino end ------------------------------ */
 }
 /* ------------------- Media Query End Here width:468px ------------------- */
+/* ------------------- Media Query start Here width:360px  ------------------- */
+@media only screen and (max-width: 360px) 
+{
+  #home,
+  #category,
+  #author,
+  #book_corner,
+  #our_team {
+    padding: 30px 0 !important;
+  }
+
+  /* ---------------------------------- home ---------------------------------- */
+ 
+  #home .row .content p
+  {
+      font-size: 2rem;
+  }
+
+
+  #author .row .card_section .card {
+    width: 18rem;
+    height: 22rem;
+  }
+
+  #author .row .card_section .card .card-body .card-title {
+    font-size: 1.5rem;
+  }
+
+
+  /* ------------------------------- tbp sectino start ------------------------------ */
+
+  /* ------------------------------- bestseller ------------------------------- */
+  #book_corner .fbook .swipe img {
+    box-shadow: -8px 5px 10px rgba(0, 0, 0, 0.397);
+    height: 13rem;
+  }
+
+  /* ---------------------------------- stand --------------------------------- */
+  #book_corner #stand {
+    width: 100%;
+    margin-top: -0.65rem;
+
+  }
+
+  /* ------------------------------- tbp sectino end ------------------------------ */
+  #our_team 
+  {
+    margin-top: 30PX;
+  }
+  #our_team .row  .dev_card_section .card
+  {
+    width: 15rem;
+    height: 20rem;
+    
+  } 
+  #our_team .row  .dev_card_section .card .card-body .card-title 
+  {
+    font-size: 1.45rem;
+    
+  }
+  #footer #text
+  {
+    font-size: 0.8rem;
+
+  }
+
+}
+
+/* ------------------- Media Query End Here width:360px  ------------------- */
