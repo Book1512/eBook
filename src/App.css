@@ -98,17 +98,17 @@
   }
 
   /* ---------------------------------- home ---------------------------------- */
-  #home 
-  {
-
-  }
   #home .row .content p
   {
       font-size: 4rem;
   }
+  #author .row
+  {
+      padding: 30px;    
+  }
   #author .row .card_section .card {
-    width: 20rem;
-    height: 25rem;
+    width: 14rem !important;
+    height: 19rem !important;
   }
 
   #author .row .card_section .card .card-body .card-title {
@@ -135,7 +135,7 @@
 }
 /* ------------------- Media Query End Here width:468px ------------------- */
 /* ------------------- Media Query start Here width:360px  ------------------- */
-@media only screen and (max-width: 360px) 
+@media only screen and (max-width: 414px) 
 {
   #home,
   #category,
@@ -154,12 +154,12 @@
 
 
   #author .row .card_section .card {
-    width: 18rem;
+    width: 19rem;
     height: 22rem;
   }
 
   #author .row .card_section .card .card-body .card-title {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 
 
@@ -185,13 +185,13 @@
   }
   #our_team .row  .dev_card_section .card
   {
-    width: 15rem;
+    width: 14rem;
     height: 20rem;
     
   } 
   #our_team .row  .dev_card_section .card .card-body .card-title 
   {
-    font-size: 1.45rem;
+    font-size: 1.3rem;
     
   }
   #footer #text
