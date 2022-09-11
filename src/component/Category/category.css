@@ -38,12 +38,12 @@
 }
 
 .category .row .slided .box img {
-    width: 80%;
+    width: 18rem;
+    height: 18rem;
     display: block;
     text-align: center;
     object-fit: cover;
     object-position: center;
-    height: 15rem;
     margin: 3rem auto;
 
 }
@@ -52,8 +52,8 @@
 
 
 .category .row .slided .box .con-box {
-    width: 80%;
-    height: 71%;
+    width: 18rem;
+    height: 18rem;
     background-color: rgba(0, 0, 0, 0.579);
     top: 50%;
     position: absolute;

@@ -123,7 +123,7 @@ export default function Category() {
 
         infinite: true,
         slidesToShow: 4,
-        slidesToScroll: 1,
+        slidesToScroll: 2,
         // autoplay: true,
         speed: 1500,
         responsive: [
