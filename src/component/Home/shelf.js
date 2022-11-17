@@ -105,7 +105,6 @@ export default function Shelf() {
                                                         </div>
                                                         <img src={item.image} alt="" style={{ width: '100%' }} />
                                                     </p>
-                                                    {/* <button className='btn btn-outline-primary'> Read Book </button> */}
                                                 </div>
                                                 <div className='des px-3 col-6 flex-wrap overflow-auto mt-4' style={{ height: '30rem' }}>
                                                     <p className=''>{item.des}</p>

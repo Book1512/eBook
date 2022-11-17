@@ -24,7 +24,7 @@ const Devloper =
             "id": "3",
             "image": "./images/devlopers/prince.jpg", 
             "name": "Prince Sudani",
-            "designation": "Designer",
+            "designation": "Researcher",
             "detail": " We are the Devlopers of this MIni Front end Project",
             "insta":"https://instagram.com/imprincesudani?igshid=YmMyMTA2M2Y=",
             "face":"https://www.facebook.com/prince.sudani.58",

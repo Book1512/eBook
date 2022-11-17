@@ -77,7 +77,7 @@ function About() {
                         {citem.name}
                       </Card.Title>
                       <hr className='w-100' />
-                      <Card.Subtitle className="mb-2 text-muted">{citem.designation}</Card.Subtitle>
+                      <Card.Subtitle className="mb-2 text-muted" style={{color:'white'}}>{citem.designation}</Card.Subtitle>
                       <Card.Text className='card-text'>
                         {citem.detail}
                       </Card.Text>

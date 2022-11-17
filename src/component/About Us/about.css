@@ -44,6 +44,7 @@
     height: 25rem;
     overflow: hidden;
     border-radius: 20px;
+    
 }
 .about_us .row  .dev_card_section .card .card-img{
     object-fit: cover;
